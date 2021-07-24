@@ -41,7 +41,6 @@ class App(Tk):
 
 
         while True :
-            print("t'es là ?")
             #__ je tente de comparer 2 images
 
             screen0 = screen1
@@ -59,8 +58,6 @@ class App(Tk):
             def testpixels():
                 if nbrdepixels2 != nbrdepixels1 :
                     print("la comparaison ne peut pas fonctinner les image n'ont pas le même size")
-                else :
-                    print("ça rouuuuule !")
 
             testpixels()
 
@@ -87,7 +84,7 @@ class App(Tk):
             print(nonZero,"le deuxième nonZero")
 
             if nonZero == 0 :
-                print("les images sont totalement les mêmes.")
+                print("les images sont les mêmes.")
 
             pourcentage1 = (nbrdepixels1 - nonZero)/nbrdepixels1 * 100
             print(pourcentage1," pourcent de similarité")
