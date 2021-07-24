@@ -23,9 +23,9 @@ def jaimeleschevres():
     try :
         os.mkdir(pathtot)
     except OSError:
-        print("création du répertoire %s failed" % path)
-        print("bah ça marche pas sorry soit j'ai fais de la merde soit c'est toi hihi")
+        print("Création du répertoire %s failed" % path)
+        print("Un problème est survenu lors de la cration du répertoire.")
     else :
-        print("répertoire %s créé avec succès ! tu peux aller prendre ton café avec la voisine le programme prend les notes à ta place ;)" % path)
+        print("Répertoire %s créé avec succès ! " % path)
     
     return(pathtot)
